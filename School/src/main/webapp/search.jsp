@@ -81,6 +81,7 @@
 			</tr>		
 		<%
 	}
+	}catch(Exception e){e.printStackTrace();}
 	
 	%>
 	</table>
