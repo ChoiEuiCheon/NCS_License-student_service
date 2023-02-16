@@ -62,8 +62,6 @@
 		else if(sum>=80){grade="B";}
 		else if(sum>=75){grade="C+";}
 		else if(sum>=70){grade="C";}
-		else if(sum>=65){grade="D+";}
-		else if(sum>=60){grade="D";}
 		else {grade="F";}
 		%>
 			<tr>
