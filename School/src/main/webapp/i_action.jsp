@@ -12,13 +12,7 @@ String attend = request.getParameter("attend");
 String report = request.getParameter("report");
 String etc = request.getParameter("etc");
 
-
-try{
-	String sql = "INSERT INTO tbl_score_202210 values(?,?,?,?,?,?,?) ";
-	PreparedStatement pstmt = con.prepareStatement(sql);
-	pstmt.setString(1, sid);
-	pstmt.setString(2, subcode);
-	pstmt.setString(3, midscore);
+ 
 	pstmt.setString(4, finalscore);
 	pstmt.setString(5, attend);
 	pstmt.setString(6, report);
