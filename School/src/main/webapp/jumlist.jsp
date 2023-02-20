@@ -42,6 +42,7 @@
 						 "FROM tbl_student_202210 st, tbl_score_202210 sc, tbl_subject_202210 su "+
 						 "WHERE st.stuid=sc.sid AND sc.subcode=su.subcode "+
 						 "ORDER BY sname";
+						 // 오지게 외우기
 			PreparedStatement pstmt = con.prepareStatement(sql);
 			ResultSet rs = pstmt.executeQuery();
 			while(rs.next()){

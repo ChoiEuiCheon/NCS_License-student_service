@@ -37,7 +37,6 @@
 			while(rs.next()){
 				String jumin = rs.getString(3);
 				String jumin2 = jumin.substring(0, 6) + "-" + jumin.substring(6, 13);
-				
 				String gender = jumin.substring(6, 7); // 3 or 4
 				if(gender.equals("3")){gender="남자";}
 				else {gender="여자";}
